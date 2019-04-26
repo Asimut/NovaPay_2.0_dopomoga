@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnanbnsnfns00000000001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxnanbnsnfns00000000001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npxnanbnsnfns00000000001" string_table="npxnanbnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npxnanbnsnfns00000000001" string_table="npxnanbnsnfns00000000001" />
-    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npxnanbnsnfns00000000001" string_table="npxnanbnsnfns00000000001" />
-    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npxnanbnsnfns00000000001" string_table="npxnanbnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npxnanbnsnfns00000000001" string_table="npxnanbnsnfns00000000001" />
-    <layout name="npxnanbnsnfns00000000001" font="Open Sans" controllayout="npxnanbnsnfns00000000001" colorscheme="npxnanbnsnfns00000000001" string_table="npxnanbnsnfns00000000001" />
-    <layout name="pxnanbnsnfns00000000001" font="Open Sans" controllayout="pxnanbnsnfns00000000001" colorscheme="npxnanbnsnfns00000000001" string_table="npxnanbnsnfns00000000001" />
-    <layout name="pnxnanbnsnfns00000000001" font="Open Sans" controllayout="pnxnanbnsnfns00000000001" colorscheme="npxnanbnsnfns00000000001" string_table="npxnanbnsnfns00000000001" />
+    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="pxnanbnsnfns00000000001" string_table="pxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="pxnanbnsnfns00000000001" string_table="pxnanbnsnfns00000000001" />
+    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="pxnanbnsnfns00000000001" string_table="pxnanbnsnfns00000000001" />
+    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="pxnanbnsnfns00000000001" string_table="pxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="pxnanbnsnfns00000000001" string_table="pxnanbnsnfns00000000001" />
+    <layout name="pxnanbnsnfns00000000001" font="Open Sans" controllayout="pxnanbnsnfns00000000001" colorscheme="pxnanbnsnfns00000000001" string_table="pxnanbnsnfns00000000001" />
+    <layout name="pnxnanbnsnfns00000000001" font="Open Sans" controllayout="pnxnanbnsnfns00000000001" colorscheme="pxnanbnsnfns00000000001" string_table="pxnanbnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -200,29 +199,6 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="npxnanbnsnfns00000000001">
-      <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="true" />
-      <control name="swipeleft" enabled="false" />
-      <control name="swiperight" enabled="false" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
     <control_layout name="pxnanbnsnfns00000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
@@ -271,7 +247,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npxnanbnsnfns00000000001">
+    <colorscheme name="pxnanbnsnfns00000000001">
       <color_group name="infopanel">
         <group_colors>
           <color name="link_text">
@@ -1177,7 +1153,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npxnanbnsnfns00000000001">
+    <string_table name="pxnanbnsnfns00000000001">
       <string id="acc_active">активна</string>
       <string id="check_include">Додати до списку</string>
       <string id="clear">Сброс і повернення в меню</string>
@@ -1211,7 +1187,7 @@
       <string id="acc_replay">повтор</string>
       <string id="resources">Ресурси</string>
       <string id="acc_resources">ресурси</string>
-      <string id="restart">Продовжити</string>
+      <string id="restart">Почати спочатку</string>
       <string id="resume">Возобновить тест</string>
       <string id="search">Пошук...</string>
       <string id="acc_search_input">пошук</string>
@@ -1242,15 +1218,16 @@
           <links>
             <slidelink slideid="_player.674iYfyzqRm.6N0V9ffm0h3" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.674iYfyzqRm.5tNx2qRD2iu" displaytext="Автовідміна оплати по POS-терміналу" expand="false" type="slide" />
+            <slidelink slideid="_player.674iYfyzqRm.5rckFKNzywh" displaytext="Автовідміна оплати по POS-терміналу" expand="false" type="slide" />
             <slidelink slideid="_player.674iYfyzqRm.5r6uGRLbCQM" displaytext="Автовідміна оплати по POS-терміналу" expand="false" type="slide" />
-            <slidelink slideid="_player.674iYfyzqRm.5wf19nEdqiu" displaytext="Сліп чек роздрукувався, в Журналі оплата відсутня" expand="false" type="slide" />
+            <slidelink slideid="_player.674iYfyzqRm.5wf19nEdqiu" displaytext="Сліп чек роздрукувався, але по RRN оплата не допроводиться" expand="false" type="slide" />
             <slidelink slideid="_player.674iYfyzqRm.6nm4hyiikQh" displaytext="Помилка: попередня зміна POS-терміналу не закрита" expand="false" type="slide" />
+            <slidelink slideid="_player.674iYfyzqRm.5vcHQmXTeNB" displaytext="Помилка: попередня зміна POS-терміналу не закрита" expand="false" type="slide" />
             <slidelink slideid="_player.674iYfyzqRm.62gnycQLbPi" displaytext="Помилка: нефіскалізована операція" expand="false" type="slide" />
             <slidelink slideid="_player.674iYfyzqRm.626LmZrzLjO" displaytext="Помилка: нефіскалізована операція" expand="false" type="slide" />
             <slidelink slideid="_player.674iYfyzqRm.5fR7FGUbk3r" displaytext="Помилка: розбіжності каси" expand="false" type="slide" />
             <slidelink slideid="_player.674iYfyzqRm.5mqiG1BLTzu" displaytext="Помилка: розбіжності каси" expand="false" type="slide" />
             <slidelink slideid="_player.674iYfyzqRm.66n3kei0YyH" displaytext="Помилка: розбіжності каси" expand="false" type="slide" />
-            <slidelink slideid="_player.674iYfyzqRm.6iVUx6voSza" displaytext="Помилка: розбіжності каси" expand="false" type="slide" />
             <slidelink slideid="_player.674iYfyzqRm.5jGCKK3kmPJ" displaytext="Помилка: розбіжності каси" expand="false" type="slide" />
             <slidelink slideid="_player.674iYfyzqRm.5klBBIxdQLV" displaytext="Untitled Slide" expand="false" type="slide" />
           </links>
